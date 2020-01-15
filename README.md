@@ -7,5 +7,5 @@
 
 ## run dev 
 ```
-    npm run dev
+    npm start
 ```

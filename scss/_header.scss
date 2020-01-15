@@ -1,10 +1,10 @@
-.masthead {
+.header {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/bg-masthead.jpg');
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/header.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -17,6 +17,7 @@
     background: -webkit-linear-gradient(fade-out(white, 0.1), fade-out(white, 1));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
   }
   h2 {
     max-width: 20rem;
@@ -42,3 +43,4 @@
     }
   }
 }
+
